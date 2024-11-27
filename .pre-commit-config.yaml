@@ -19,7 +19,7 @@ repos:
         args: [ --markdown-linebreak-ext=md ]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.7.3
+    rev: v0.8.0
     hooks:
       # --config to stop ruff from using {{project_name}}/pyproject.toml
       # https://github.com/astral-sh/ruff/issues/9585
@@ -29,7 +29,7 @@ repos:
         args: ["--config", "pyproject.toml"]
 
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.10
+    rev: 1.8.0
     hooks:
     - id: bandit
       exclude: ^tests/
