@@ -42,3 +42,7 @@ is_github_project:
     help: "Will this project be hosted on GitHub?"
     type: bool
     default: yes
+
+_tasks:
+    - "git init"
+    - "uv lock"
