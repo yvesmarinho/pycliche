@@ -53,7 +53,7 @@ This repo follows trunk-based development. This means:
 
 In addition to the [Prerequisites](#prerequisites) above, you will need the following to
 develop `{{project_name}}`:
-`
+
 - [pre-commit](https://pre-commit.com/)
 
 ### Dependency management
@@ -119,7 +119,7 @@ To cut a release, simply merge the release pull request.
 ### GitHub Personal Access Token
 
 In order for Release Please to automate the above process, a GitHub Actions secret called
-`RELEASE_PLEASE_TOKEN` must exist in GitHub (under <project>/settings/secrets/actions).
+`RELEASE_PLEASE_TOKEN` must exist in GitHub (under {{project_name}}/settings/secrets/actions).
 The contents of this secret must be a Personal Access Token (PAT) with the following permissions:
 
 ```text
@@ -129,3 +129,6 @@ pull-requests: write
 
 For more information, consult the [release-please-action project](https://github.com/googleapis/release-please-action).
 {%endif%}
+---
+
+&copy; {{author_name}}
