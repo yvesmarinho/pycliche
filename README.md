@@ -1,13 +1,13 @@
-# pycliché
+<!-- markdownlint-disable MD041 first-line-heading/first-line-h1 -->
 
 <!-- markdownlint-disable MD033 no-inline-html -->
 <p align="center">
   <!-- markdownlint-disable MD013 line-length -->
-  <img src="docs/media/pycliche-logo-sm.webp" alt="pycliche logo - a printing plate embossed with the Python logo"/>
+  <img src="docs/media/pycliche_wordmark-logo.webp" alt="pycliché logo - a printing plate embossed with the Python logo and the word 'pycliché'"/>
   <!-- markdownlint-enable MD013 line-length -->
 </p>
 
-A Python project template with opinionated tooling.
+`pycliche` - a Python project template with opinionated tooling.
 
 [![python: 3.10](https://img.shields.io/badge/>=3.10-4584b6?logo=python&logoColor=ffde57)](https://docs.python.org/3.10/whatsnew/3.10.html)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/albertomh/pycliche/main/docs/media/copier-badge.json)](https://github.com/copier-org/copier)
@@ -16,6 +16,7 @@ A Python project template with opinionated tooling.
 [![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?logo=pre-commit&logoColor=1f2d23)](https://github.com/pre-commit/pre-commit)
 [![ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json&labelColor=261230&color=d8ff64)](https://github.com/astral-sh/ruff)
 [![IPython](https://img.shields.io/badge/IP[y]:-3465a4)](https://ipython.readthedocs.io/en/stable/)
+[![structlog](https://img.shields.io/badge/🪵_structlog-000)](https://github.com/hynek/structlog)
 [![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)](https://github.com/pytest-dev/pytest)
 [![coverage](https://img.shields.io/badge/😴_coverage-59aabd)](https://coverage.readthedocs.io/)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
@@ -100,3 +101,11 @@ The developer README ([docs/README-dev.md](docs/README-dev.md)) covers how to wo
   - [GitHub Personal Access Token](docs/README-dev.md#github-personal-access-token)
 
 - [Record demo](docs/README-dev.md#record-demo)
+
+---
+
+## Acknowledgements
+
+Several tooling choices have been guided by the work of [Adam Johnson](https://adamj.eu/tech/).
+
+The `pycliche` logo is typeset in [Allerta Stencil](https://fonts.google.com/specimen/Allerta+Stencil).
