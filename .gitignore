@@ -101,7 +101,7 @@ ENV/
 # IDE settings
 .vscode/
 .idea/
-
+*-workspace
 .ruff_cache/
 
 *.DS_Store
